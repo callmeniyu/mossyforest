@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://mossyforest.my/sitemap.xml
+
+# Block access to sensitive files
+Disallow: /api/
+Disallow: /_next/
+Disallow: /admin/
+
+# Allow important resources
+Allow: /images/
+Allow: /*.css
+Allow: /*.js
