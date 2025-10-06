@@ -42,7 +42,7 @@ export default function MossyForestPage() {
       {/* Hero Section */}
       <section className="relative h-screen">
         <Image
-          src="/images/mossyforest (1).jpg"
+          src="/images/hero.jpg"
           alt="Mossy Forest Cameron Highlands - Ancient moss-covered trees"
           fill
           className="object-cover"
@@ -58,8 +58,8 @@ export default function MossyForestPage() {
               </span>
             </h1>
             <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto leading-relaxed">
-              Experience Malaysia's most enchanting highland forest sanctuary at
-              2,000 meters above sea level
+              Experience Cameron Highlands's most enchanting highland forest
+              sanctuary at 2,000 meters above sea level
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <a
@@ -143,7 +143,7 @@ export default function MossyForestPage() {
             </div>
             <div className="relative">
               <Image
-                src="/images/mossyforest (2).jpg"
+                src="/images/image (3).jpg"
                 alt="Mossy Forest wooden boardwalk through ancient trees"
                 width={600}
                 height={400}
@@ -313,18 +313,18 @@ export default function MossyForestPage() {
               Photo Gallery
             </h2>
             <p className="text-xl text-gray-600">
-              Capture the beauty of Malaysia's most mysterious forest
+              Capture the beauty of Cameron Highlands's most mysterious forest
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-            {[6, 7, 8, 1].map((num) => (
+            {[1, 2, 3, 4, 5, 6, 7, 8].map((num) => (
               <div
                 key={num}
                 className="relative group overflow-hidden rounded-lg card-shadow"
               >
                 <Image
-                  src={`/images/mossyforest (${num}).jpg`}
+                  src={`/images/image (${num}).jpg`}
                   alt={`Mossy Forest Cameron Highlands - Image ${num}`}
                   width={300}
                   height={400}
@@ -354,9 +354,9 @@ export default function MossyForestPage() {
                 </div>
               </div>
               <p className="text-gray-400 leading-relaxed">
-                Malaysia's premier highland forest sanctuary, preserving ancient
-                ecosystems for future generations while providing sustainable
-                eco-tourism experiences.
+                Cameron Highlands's premier highland forest sanctuary,
+                preserving ancient ecosystems for future generations while
+                providing sustainable eco-tourism experiences.
               </p>
             </div>
 
