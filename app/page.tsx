@@ -23,7 +23,7 @@ export default function MossyForestPage() {
         <div className="container-max section-padding">
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-3">
-              <div className="w-10 h-10 bg-green-600 rounded-full flex items-center justify-center">
+              <div className="w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center">
                 <TreePine className="w-6 h-6 text-white" />
               </div>
               <div>
@@ -53,7 +53,7 @@ export default function MossyForestPage() {
           <div className="text-center text-white section-padding">
             <h1 className="text-5xl md:text-7xl font-bold mb-6">
               Mossy Forest
-              <span className="block text-3xl md:text-5xl text-green-300 mt-2">
+              <span className="block text-3xl md:text-5xl text-blue-300 mt-2">
                 Eco Park
               </span>
             </h1>
@@ -84,7 +84,7 @@ export default function MossyForestPage() {
       </section>
 
       {/* Quick Info Bar */}
-      <section className="bg-green-700 text-white py-4">
+      <section className="bg-blue-700 text-white py-4">
         <div className="container-max section-padding">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-4 text-center">
             <div className="flex items-center justify-center space-x-2">
@@ -114,7 +114,7 @@ export default function MossyForestPage() {
         <div className="container-max section-padding">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-4xl font-bold text-forest mb-6">
+              <h2 className="text-4xl font-bold text-primary mb-6">
                 A Living Ancient Ecosystem
               </h2>
               <p className="text-lg text-gray-700 mb-6 leading-relaxed">
@@ -130,13 +130,13 @@ export default function MossyForestPage() {
               </p>
               <div className="grid grid-cols-2 gap-4 mt-8">
                 <div className="text-center p-4 bg-white rounded-lg card-shadow">
-                  <Leaf className="w-8 h-8 text-green-600 mx-auto mb-2" />
-                  <h3 className="font-bold text-forest">Upper Dipterocarp</h3>
+                  <Leaf className="w-8 h-8 text-blue-600 mx-auto mb-2" />
+                  <h3 className="font-bold text-primary">Upper Dipterocarp</h3>
                   <p className="text-sm text-gray-600">Forest Type</p>
                 </div>
                 <div className="text-center p-4 bg-white rounded-lg card-shadow">
-                  <Mountain className="w-8 h-8 text-green-600 mx-auto mb-2" />
-                  <h3 className="font-bold text-forest">Montane Highland</h3>
+                  <Mountain className="w-8 h-8 text-blue-600 mx-auto mb-2" />
+                  <h3 className="font-bold text-primary">Montane Highland</h3>
                   <p className="text-sm text-gray-600">Ecosystem</p>
                 </div>
               </div>
@@ -155,10 +155,10 @@ export default function MossyForestPage() {
       </section>
 
       {/* Visitor Information */}
-      <section id="visit-info" className="py-16 bg-green-50">
+      <section id="visit-info" className="py-16 bg-blue-50">
         <div className="container-max section-padding">
           <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold text-forest mb-4">
+            <h2 className="text-4xl font-bold text-primary mb-4">
               Visitor Information
             </h2>
             <p className="text-xl text-gray-600">
@@ -171,29 +171,29 @@ export default function MossyForestPage() {
             {/* Admission Fees */}
             <div className="bg-white rounded-lg card-shadow p-8">
               <div className="flex items-center mb-6">
-                <Users className="w-8 h-8 text-green-600 mr-3" />
-                <h3 className="text-2xl font-bold text-forest">
+                <Users className="w-8 h-8 text-blue-600 mr-3" />
+                <h3 className="text-2xl font-bold text-primary">
                   Admission Fees
                 </h3>
               </div>
 
               <div className="space-y-6">
                 <div>
-                  <h4 className="text-lg font-bold text-forest mb-3">
+                  <h4 className="text-lg font-bold text-primary mb-3">
                     Malaysian Citizens
                   </h4>
                   <div className="space-y-2 text-black">
                     <div className="flex justify-between py-2 border-b border-gray-200">
                       <span>Adults (13–59 years)</span>
-                      <span className="font-bold text-green-600">RM 10.00</span>
+                      <span className="font-bold text-blue-600">RM 10.00</span>
                     </div>
                     <div className="flex justify-between py-2 border-b border-gray-200">
                       <span>Children (3–12 years)</span>
-                      <span className="font-bold text-green-600">RM 5.00</span>
+                      <span className="font-bold text-blue-600">RM 5.00</span>
                     </div>
                     <div className="flex justify-between py-2 border-b border-gray-200">
                       <span>Senior Citizens (60+)</span>
-                      <span className="font-bold text-green-600">RM 5.00</span>
+                      <span className="font-bold text-blue-600">RM 5.00</span>
                     </div>
                     <div className="flex justify-between py-2">
                       <span>Persons with Disabilities</span>
@@ -203,7 +203,7 @@ export default function MossyForestPage() {
                 </div>
 
                 <div>
-                  <h4 className="text-lg font-bold text-forest mb-3">
+                  <h4 className="text-lg font-bold text-primary mb-3">
                     Non-Citizens
                   </h4>
                   <div className="space-y-2 text-black">
@@ -231,36 +231,36 @@ export default function MossyForestPage() {
             {/* Tips and Guidelines */}
             <div className="bg-white rounded-lg card-shadow p-8">
               <div className="flex items-center mb-6">
-                <Shield className="w-8 h-8 text-green-600 mr-3" />
-                <h3 className="text-2xl font-bold text-forest">
+                <Shield className="w-8 h-8 text-blue-600 mr-3" />
+                <h3 className="text-2xl font-bold text-primary">
                   Tips for Visitors
                 </h3>
               </div>
 
               <div className="space-y-4">
                 <div className="flex items-start space-x-3">
-                  <div className="w-2 h-2 bg-green-600 rounded-full mt-2 flex-shrink-0"></div>
+                  <div className="w-2 h-2 bg-blue-600 rounded-full mt-2 flex-shrink-0"></div>
                   <p className="text-gray-700">
                     <strong>Bring a jacket</strong> - The weather can be chilly
                     and damp throughout the day.
                   </p>
                 </div>
                 <div className="flex items-start space-x-3">
-                  <div className="w-2 h-2 bg-green-600 rounded-full mt-2 flex-shrink-0"></div>
+                  <div className="w-2 h-2 bg-blue-600 rounded-full mt-2 flex-shrink-0"></div>
                   <p className="text-gray-700">
                     <strong>Wear comfortable walking shoes</strong> - The
                     boardwalk can be slippery when wet.
                   </p>
                 </div>
                 <div className="flex items-start space-x-3">
-                  <div className="w-2 h-2 bg-green-600 rounded-full mt-2 flex-shrink-0"></div>
+                  <div className="w-2 h-2 bg-blue-600 rounded-full mt-2 flex-shrink-0"></div>
                   <p className="text-gray-700">
                     <strong>Visit in the morning</strong> - Clearer weather with
                     less fog for better panoramic views.
                   </p>
                 </div>
                 <div className="flex items-start space-x-3">
-                  <div className="w-2 h-2 bg-green-600 rounded-full mt-2 flex-shrink-0"></div>
+                  <div className="w-2 h-2 bg-blue-600 rounded-full mt-2 flex-shrink-0"></div>
                   <p className="text-gray-700">
                     <strong>Arrive early</strong> - The forest is very popular,
                     so early arrival helps avoid crowds.
@@ -268,12 +268,12 @@ export default function MossyForestPage() {
                 </div>
               </div>
 
-              <div className="mt-8 p-4 bg-green-100 rounded-lg">
+              <div className="mt-8 p-4 bg-blue-100 rounded-lg">
                 <div className="flex items-center mb-2">
-                  <Clock className="w-5 h-5 text-green-600 mr-2" />
-                  <span className="font-bold text-forest">Opening Hours</span>
+                  <Clock className="w-5 h-5 text-blue-600 mr-2" />
+                  <span className="font-bold text-primary">Opening Hours</span>
                 </div>
-                <p className="text-green-800 font-semibold">
+                <p className="text-blue-800 font-semibold">
                   Daily: 8:00 AM - 5:00 PM
                 </p>
               </div>
@@ -283,7 +283,7 @@ export default function MossyForestPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 bg-gradient-to-r from-green-800 to-green-700 text-white">
+      <section className="py-16 bg-gradient-to-r from-blue-800 to-blue-700 text-white">
         <div className="container-max section-padding text-center">
           <h2 className="text-4xl font-bold mb-6">
             Ready to Explore the Mossy Forest?
@@ -309,7 +309,7 @@ export default function MossyForestPage() {
       <section className="py-16">
         <div className="container-max section-padding">
           <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold text-forest mb-4">
+            <h2 className="text-4xl font-bold text-primary mb-4">
               Photo Gallery
             </h2>
             <p className="text-xl text-gray-600">
@@ -345,7 +345,7 @@ export default function MossyForestPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div>
               <div className="flex items-center space-x-3 mb-4">
-                <div className="w-10 h-10 bg-green-600 rounded-full flex items-center justify-center">
+                <div className="w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center">
                   <TreePine className="w-6 h-6 text-white" />
                 </div>
                 <div>
@@ -394,7 +394,7 @@ export default function MossyForestPage() {
                 ].map((keyword, index) => (
                   <span
                     key={index}
-                    className="text-xs bg-green-700 text-white px-2 py-1 rounded"
+                    className="text-xs bg-blue-700 text-white px-2 py-1 rounded"
                   >
                     {keyword}
                   </span>

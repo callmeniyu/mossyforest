@@ -5,10 +5,10 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
-  --forest-green: #1a472a;
-  --moss-green: #2d5a3d;
-  --light-green: #4a7c59;
-  --earth-brown: #8b4513;
+  --primary-blue: #1e40af;
+  --secondary-blue: #3b82f6;
+  --light-blue: #60a5fa;
+  --accent-purple: #7c3aed;
   --mist-gray: #f8f9fa;
   --dark-gray: #2c3e50;
 }
@@ -114,14 +114,14 @@ body {
   background-color: rgba(0, 0, 0, 0.4);
 }
 
-.bg-forest {
-  background-color: var(--forest-green);
+.bg-primary {
+  background-color: var(--primary-blue);
 }
 
-.bg-moss {
-  background-color: var(--moss-green);
+.bg-secondary {
+  background-color: var(--secondary-blue);
 }
 
-.text-forest {
-  color: var(--forest-green);
+.text-primary {
+  color: var(--primary-blue);
 }
