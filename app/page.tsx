@@ -51,7 +51,6 @@ export const metadata = {
     "Cameron Highlands jungle walk",
     "Cameron Highlands adventure trip",
   ],
-  metadataBase: new URL("https://www.oastel.com"),
   alternates: { canonical: "/" },
   openGraph: {
     title: "Mossy Forest — Cameron Highlands",
